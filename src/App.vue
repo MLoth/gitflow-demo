@@ -20,7 +20,7 @@
         class="rounded-xl bg-gradient-to-br from-blue-500 via-cyan-500 to-purple-500 p-[3px] -mx-6"
       >
         <div
-          class="flex gap-3 flex-col text-white px-6 py-6 text-lg bg-neutral-800 rounded-xl"
+          class="flex gap-3 flex-col text-white px-6 py-6 text-lg bg-neutral-700 rounded-xl"
         >
           <h2 class="text-2xl font-semibold tracking-wide">
             Tooling: Gitkraken
@@ -32,14 +32,14 @@
 
           <div class="flex items-center gap-3">
             <a
-              class="flex items-center gap-2 bg-white rounded-md text-center py-1 px-3 text-neutral-800 hover:bg-neutral-300 hover:text-neutral-900 text-sm"
+              class="flex items-center gap-2 bg-white rounded-md text-center py-1 px-3 text-neutral-800 hover:bg-black hover:text-neutral-100 text-sm"
               href="https://www.gitkraken.com/"
             >
               <GitGraph class="h-4" /> Gitkraken
               <ExternalLink class="opacity-50 h-3" />
             </a>
             <a
-              class="flex items-center gap-2 bg-white rounded-md text-center py-1 px-3 text-neutral-800 hover:bg-neutral-300 hover:text-neutral-900 text-sm"
+              class="flex items-center gap-2 bg-white rounded-md text-center py-1 px-3 text-neutral-800 hover:bg-black hover:text-neutral-100 text-sm"
               href="https://education.github.com/"
             >
               <Github class="h-4" /> GitHub ecudation
