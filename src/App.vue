@@ -19,6 +19,9 @@
       <div
         class="rounded-xl bg-gradient-to-br from-blue-500 via-cyan-500 to-purple-500 p-[3px] -mx-6"
       >
+        <!-- Dark Feature:  -->
+        <!-- @dark:bg-black -->
+
         <div
           class="flex gap-3 flex-col text-white px-6 py-6 text-lg bg-neutral-700 rounded-xl"
         >
