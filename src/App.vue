@@ -1,7 +1,7 @@
 <template>
   <main class="min-h-screen flex flex-col">
     <div class="max-w-screen-md mx-auto p-9">
-      <h1 class="font-oswald text-4xl mb-1">Gitflow in actie</h1>
+      <h1 class="text-4xl font-bold mb-1">Gitflow in actie</h1>
       <p class="font-mono mb-8">
         {{ version }}
       </p>
@@ -17,12 +17,14 @@
       </div>
 
       <div
-        class="rounded-xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[3px] -mx-6"
+        class="rounded-xl bg-gradient-to-br from-blue-500 via-cyan-500 to-purple-500 p-[3px] -mx-6"
       >
         <div
           class="flex gap-3 flex-col text-white px-6 py-6 text-lg bg-neutral-800 rounded-xl"
         >
-          <h2 class="font-oswald text-2xl tracking-wide">Tooling: Gitkraken</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">
+            Tooling: Gitkraken
+          </h2>
           <p>
             We gebruiken momenteel Gitkraken als tool om Gitflow branching te
             doen.
@@ -30,14 +32,14 @@
 
           <div class="flex items-center gap-3">
             <a
-              class="flex items-center bg-white rounded-md text-center py-1 px-3 text-neutral-800 hover:bg-neutral-300 hover:text-neutral-900"
+              class="flex items-center gap-2 bg-white rounded-md text-center py-1 px-3 text-neutral-800 hover:bg-neutral-300 hover:text-neutral-900 text-sm"
               href="https://www.gitkraken.com/"
             >
               <GitGraph class="h-4" /> Gitkraken
               <ExternalLink class="opacity-50 h-3" />
             </a>
             <a
-              class="flex items-center bg-white rounded-md text-center py-1 px-3 text-neutral-800 hover:bg-neutral-300 hover:text-neutral-900"
+              class="flex items-center gap-2 bg-white rounded-md text-center py-1 px-3 text-neutral-800 hover:bg-neutral-300 hover:text-neutral-900 text-sm"
               href="https://education.github.com/"
             >
               <Github class="h-4" /> GitHub ecudation
