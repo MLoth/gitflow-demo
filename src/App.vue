@@ -50,13 +50,53 @@
       </div>
 
       <div class="text-lg mt-12 max-w-lg">
-        <p>
-          Gitflow is een branching model. Het is een manier om je repository te
-          organiseren in een software team.
+        <p class="mb-3">
+          Gitflow is een model voor het beheren van versiecontrole met Git. Het
+          is bedacht door Vincent Driessen en helpt teams om samen te werken,
+          software-ontwikkeling te beheren en een gestructureerde aanpak te
+          volgen. Hier is een eenvoudige uitleg:
         </p>
-        <p>
-          Deze minisite is automatisch gedeployed vanaf de
-          <span class="font-mono">main</span> branch.
+
+        <ol class="list-decimal list-inside mb-6">
+          <li>
+            <span class="font-bold">Master Branch</span>: Dit is de
+            belangrijkste tak van je code. Hierin staat de meest stabiele versie
+            die in productie is.
+          </li>
+          <li>
+            <span class="font-bold">Develop Branch</span>: Dit is waar je aan
+            nieuwe functies werkt. Het bevat de laatste ontwikkelingen en is de
+            basis voor nieuwe features.
+          </li>
+
+          <li>
+            <span class="font-bold">Feature Branches</span>: Telkens wanneer je
+            aan een nieuwe functie begint, maak je een speciale tak. Als de
+            functie klaar is, voeg je deze weer samen met de develop branch.
+          </li>
+
+          <li>
+            <span class="font-bold">Release Branches</span>: Als je klaar bent
+            om een nieuwe versie uit te brengen, maak je een release-tak. Hier
+            kun je bugs oplossen en testen voordat je de nieuwe versie lanceert.
+          </li>
+
+          <li>
+            <span class="font-bold">Hotfix Branches</span>: Soms zijn er
+            dringende problemen in de productiecode. Dan maak je een hotfix-tak
+            om snel de fouten te corrigeren. Deze worden daarna toegevoegd aan
+            zowel de master- als de develop-tak.
+          </li>
+        </ol>
+
+        <p class="mb-6">
+          Gitflow geeft duidelijke regels over wanneer en hoe je deze takken
+          maakt, samenvoegt en verwijdert. Het helpt teams om georganiseerd te
+          blijven, meerdere dingen tegelijkertijd te ontwikkelen en ervoor te
+          zorgen dat de productiecode stabiel blijft. Het kan vooral handig zijn
+          in grotere teams en complexe projecten. Let wel op dat er andere
+          Git-werkstromen zijn, en je moet kiezen wat het beste bij jouw team en
+          project past.
         </p>
       </div>
     </div>
