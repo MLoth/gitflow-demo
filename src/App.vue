@@ -42,7 +42,7 @@
               class="flex items-center gap-2 bg-white rounded-md text-center py-1 px-3 text-neutral-800 hover:bg-black hover:text-neutral-100 text-sm"
               href="https://education.github.com/"
             >
-              <Github class="h-4" /> GitHub ecudation
+              <Github class="h-4" /> GitHub education
               <ExternalLink class="opacity-50 h-3" />
             </a>
           </div>
