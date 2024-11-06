@@ -1,7 +1,6 @@
 <template>
   <main class="min-h-screen flex flex-col">
     <div class="max-w-screen-md mx-auto p-9">
-      </h1>
       <h1 class="flex items-center gap-1 text-4xl font-bold mb-1">
         <GitBranch />
         Gitflow in actie
