@@ -4,8 +4,9 @@
 
 The main branch is automatically deployed to Netlify.
 
-## 0.0.2
-- Added more content
-- Added nice dark mode
+## Frontend
 
-- Didn't fix any bugs!
+Used a lucide icon in the header!
+
+
+## Backend
