@@ -1,10 +1,9 @@
 <template>
   <main class="min-h-screen flex flex-col">
     <div class="max-w-screen-md mx-auto p-9">
-      <!-- <h1 class="flex items-center gap-1 text-4xl font-bold mb-1">
-        <GitBranch /> Gitflow in actie
-      </h1> -->
-      <h1 class="text-4xl font-bold mb-1">
+      </h1>
+      <h1 class="flex items-center gap-1 text-4xl font-bold mb-1">
+        <GitBranch />
         Gitflow in actie
       </h1>
       <p class="font-mono mb-8">
@@ -113,7 +112,6 @@
 </template>
 
 <script setup lang="ts">
-import { Github, GitGraph } from 'lucide-vue-next'
+import { Github, GitGraph, ExternalLink, GitBranch } from 'lucide-vue-next'
 import { version } from '../package.json'
-import { ExternalLink } from 'lucide-vue-next'
 </script>
