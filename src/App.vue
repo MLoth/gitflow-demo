@@ -111,7 +111,6 @@
 </template>
 
 <script setup lang="ts">
-import { Github, GitGraph } from 'lucide-vue-next'
+import { Github, GitGraph, ExternalLink, GitBranch } from 'lucide-vue-next'
 import { version } from '../package.json'
-import { ExternalLink, GitBranch } from 'lucide-vue-next'
 </script>
